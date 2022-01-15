@@ -1,0 +1,110 @@
+$neutral-1:#2B2E4A;
+$neutral-2: #6C6D7F;
+$neutral-3: #DFDFE3;
+$neutral-4: #F2F2F2;
+$primary: #e91e63;
+$primary_opacity: rgba(233, 30, 99, 0.1);
+$primary_hover: #FF0057;
+
+$hor-padding-1: 64px;
+$hor-padding-2: 32px;
+$hor-padding-3: 16px;
+
+$br-laptop: 1023px;
+$br-tablet: 767px;
+$br-mobile-l: 569px;
+$br-mobile: 500px;
+$br-mobile-s: 399px;
+
+%text-style_body {
+	font-family: 'Roboto', sans-serif;
+	color: $neutral-1;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+%text-style_h1-large {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 64px;
+	line-height: 72px;
+	font-weight: 700;
+}
+%text-style_h1-medium {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 56px;
+	line-height: 64px;
+	font-weight: 700;
+}
+%text-style_h1-small {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+}
+%text-style_h2-large {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 48px;
+	line-height: 56px;
+	font-weight: 700;
+}
+%text-style_h2-medium {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 44px;
+	line-height: 56px;
+	font-weight: 700;
+}
+%text-style_h2-small {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+}
+%text-style_h3-large {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 700;
+}
+%text-style_h3-small {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+}
+%text-style_button {
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	font-weight: 500;
+}
+%text-style_logo {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+	line-height: 16px;
+}
+%text-style_subtitle {
+	font-size: 11px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	line-height: 11px;
+}
+%text-style_footer {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+}
+%text-style_testimonial {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+
+}
+
+
+
+
+
