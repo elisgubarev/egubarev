@@ -1,10 +1,9 @@
 {
   "name": "my-project",
-  "source": "index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel --open --lazy",
-    "build": "parcel build --public-url ./",
+    "build": "parcel build index.html 404.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
