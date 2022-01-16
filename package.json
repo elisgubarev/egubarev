@@ -1,15 +1,15 @@
 {
   "name": "my-project",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel --open --lazy",
-    "build": "parcel build index.html 404.html --public-url ./",
+    "build": "parcel build src/index.html src/404.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "parcel": "^2.2.0"
-  },
-  "modules": true
+  }
 }
