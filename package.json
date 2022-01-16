@@ -3,8 +3,8 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel --open --lazy",
-    "build": "parcel build src/index.html src/404.html --public-url ./",
+    "start": "parcel src/index.html src/404.html --open --lazy",
+    "build": "parcel build src/index.html src/404.html --public-url https://egubarev.com",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
