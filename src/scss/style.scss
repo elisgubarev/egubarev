@@ -18,11 +18,14 @@ $anim-delay: 0.05s;
 body {
 	@extend %text-style_body;
 	-webkit-font-smoothing: antialiased;
- 	animation: fadein $anim-duration;
+	
+}
+
+.anim-fadein {
+	animation: fadein $anim-duration;
 	animation-fill-mode: backwards;
 	animation-timing-function: ease;
 	//animation-delay: $anim-delay*2;
-	
 }
 
 .container {
@@ -555,7 +558,7 @@ body {
 		background-color: #000;
 		transform: translateY(-2px);
 	}
-	transition: opacity 0.2s ease, transform 0.15s ease, background-color 0.15s ease;
+	transition: opacity 0.2s ease, transform 0.15s ease, background-color 0.15s ease, visibility 0.15s ease;
 	&__icon {
 		width: 24px;
 	}
@@ -566,6 +569,41 @@ body {
 }
 .js-ee {
 	cursor: pointer;
+}
+.pretitle {
+	@extend %text-style_pretitle;
+	color: $primary;
+}
+
+// .not-found-wrapper {
+// 	display: flex;
+// 	flex-direction: column;
+// 	height: 100vh;
+// }
+
+.not-found {
+	flex-grow: 1;
+	background: no-repeat top url('../img/404.svg');
+	background-size: contain;
+	&__container {
+		padding: 64px 16px 128px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		@media (max-width: $br-mobile) {
+			padding-top: 32px;
+			padding-bottom: 88px;
+		}
+	}
+	&__pretitle {}
+	&__title {
+		margin-bottom: 16px;
+	}
+	&__subtitle {
+		margin-bottom: 40px;
+		max-width: 300px;
+	}
 }
 
 

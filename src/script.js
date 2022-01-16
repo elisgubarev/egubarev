@@ -22,6 +22,11 @@
 		} else {
 			fab.css('opacity','1');
 		}
+		if (fabOffset > footerOffset) {
+			fab.css('visibility','hidden');
+		} else {
+			fab.css('visibility','visible');
+		}
 	});
 
 	$(window).scroll(function(){
