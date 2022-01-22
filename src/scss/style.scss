@@ -234,6 +234,7 @@ body {
 	&:after {
 		content: '';
 		background-color: $primary_opacity;
+		//background-color: #7D5FFF;
 		width: 0;
 		height: 300px;
 		display: block;
@@ -335,8 +336,9 @@ body {
 .tag {
 	@extend %text-style_subtitle;
 	padding: 6px 12px 5px;
-	background-color: $primary_opacity;
-	color: $primary;
+	//background-color: $primary_opacity;
+	background-color:  rgba(43, 46, 74, 0.1);
+	color: $neutral-1;
 	border-radius: 999px;
 	display: flex;
 	align-items: center;
@@ -349,6 +351,12 @@ body {
 		line-height: 40px;
 	}
 }
+// .case-3 {
+// 	&:after {
+// 		background-color: #FFEC78;
+
+// 	}
+// }
 
 .case-reverse {
 		// animation: fadein $anim-duration;
@@ -358,6 +366,7 @@ body {
 		&:after {
 		content: '';
 		background-color:  $primary_opacity;
+		//background-color: #0FBCF9;
 		width: 0%;
 		height: 300px;
 		display: block;
@@ -606,6 +615,16 @@ body {
 	}
 }
 
+.regular-link {
+	text-decoration: underline;
+	color: $primary;
+	&:hover {
+		opacity: 0.8;
+	}
+	transition: opacity 0.15s ease;
+
+
+}
 
 
 
