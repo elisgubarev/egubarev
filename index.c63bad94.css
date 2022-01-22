@@ -410,8 +410,8 @@ body {
 }
 .tag {
   padding: 6px 12px 5px;
-  background-color: rgba(233, 30, 99, 0.1);
-  color: #e91e63;
+  background-color: rgba(43, 46, 74, 0.1);
+  color: #2B2E4A;
   border-radius: 999px;
   display: flex;
   align-items: center;
@@ -667,5 +667,13 @@ body {
 .not-found__subtitle {
   margin-bottom: 40px;
   max-width: 300px;
+}
+.regular-link {
+  text-decoration: underline;
+  color: #e91e63;
+  transition: opacity 0.15s ease;
+}
+.regular-link:hover {
+  opacity: 0.8;
 }
 /*# sourceMappingURL=index.c63bad94.css.map */
